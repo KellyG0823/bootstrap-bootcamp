@@ -13,17 +13,101 @@
     />
   </head>
   <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-danger">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link disabled"
+              href="#"
+              tabindex="-1"
+              aria-disabled="true"
+              >Disabled</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
     <div class="container">
-      <h1><span class="border">Regular H1</span></h1>
+      <div class="jumbotron">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead d-none d-sm-block">
+          This is a simple hero unit, a simple jumbotron-style component for
+          calling extra attention to featured content or information.
+        </p>
+        <hr class="my-4" />
+        <p>
+          It uses utility classes for typography and spacing to space content
+          out within the larger container.
+        </p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1 class="text-center border border-danger d-md-none">Hello</h1>
+      <h1 class="d-none d-lg-inline d-xl-none">Hide me on XL</h1>
+      <h1 class="mt-4"><span class="border">Regular H1</span></h1>
       <h1 class="display-1 text-info">Display 1</h1>
-      <h1 class="display-2">
-        <span class="border border-success border-top-0">Display 2</span>
+      <h1 class="display-2 px-5 m-3">
+        <span class="border border-success border-top-0 ">Display 2</span>
       </h1>
+      <button class="btn btn-warning p-sm-5 p-md-0 p-lg-5">button</button>
+      <button class="btn btn-danger p-0 p-sm-2 p-md-3 p-lg-4 p-xl-5">
+        button2
+      </button>
       <img
         src="https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
         alt="..."
-        class="rounded-pill img-fluid"
+        class="rounded-pill img-fluid my-5"
+        ;
       />
+      <button class="btn btn-info p-2">p2</button>
+      <button class="btn btn-info p-3">p3</button>
+      <button class="btn btn-info mt-5 p-5">p5</button>
+      <button class="btn btn-info mx-4 pt-5">p5</button>
+      <button class="btn btn-info pl-5">p5</button>
+
       <h1 class="display-3">Display 3</h1>
       <h1 class="display-4">Display 4</h1>
       <h1 class="text-primary">I am an h1</h1>
